@@ -12,17 +12,46 @@
     <link rel="stylesheet" href="assets/css/materialize.css" />
     <link rel="stylesheet" href="assets/css/style.min.css" />
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
 
 <body>
 
-    <div class="container">
-
+    <div id="app" class="main">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <div class="card horizontal">
+                        <div class="card-image" style="background: url(https://i.imgur.com/sC3Kj35.jpg)">
+                            
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <span class="card-title">Introduction</span>
+                                <p>
+                                    Hello I'm Div.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12">
+                    <div class="card horizontal">
+                        <div class="card-image" style="background: url(https://i.imgur.com/nNq1h1m.jpg)">
+                            
+                        </div>
+                        <div class="card-stacked">
+                            <div class="card-content">
+                                <span class="card-title">Skills</span>
+                                <button v-for="skill in skills" class="waves-effect waves-light btn-small btn-skill">{{ skill }}</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <nav>
-        <!-- navbar content here  -->
-    </nav>
 
     <ul id="slide-nav" class="sidenav sidenav-fixed blue-grey lighten-5">
         <li>
@@ -42,17 +71,18 @@
         <li>
             <i class="material-icons">work</i>Web Engineer
         </li>
-         
+
     </ul>
 
     <footer class="page-footer blue-grey darken-1">
         <div class="footer-copyright">
-            <div class="container">
+            <div class="container right-align">
                 © 2018 Copyright DivaDebug
             </div>
         </div>
     </footer>
 
+    <script src="assets/js/app.js"></script>
     <script src="assets/js/materialize.js"></script>
 </body>
 

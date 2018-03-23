@@ -1,4 +1,5 @@
 #slide-nav {
+    transition: all 0.5s;
     .avatar {
         width: 200px;
         border-radius: 50%;
@@ -16,4 +17,23 @@
 
 .page-footer {
     padding-top: 0;
+}
+
+.main {
+    padding-left: 300px;
+    >.container {
+        width: 100%;
+    }
+    .card {
+        >.card-image {
+            width: 20%;
+            background-size: cover !important;
+            background-position: top !important;
+            background-repeat: no-repeat !important;
+        }
+        .btn-skill {
+            margin: 5px;
+            text-transform: none;
+        }
+    }
 }
