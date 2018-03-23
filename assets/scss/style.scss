@@ -1,3 +1,7 @@
+body {
+    background: #fafafa;
+}
+
 #slide-nav {
     transition: all 0.5s;
     .avatar {
@@ -23,30 +27,33 @@
     padding-left: 300px;
     >.container {
         width: 100%;
-    }
-    .card {
-        min-height: 200px;
-        >.card-image {
-            width: 20%;
-            background-size: cover !important;
-            background-position: top !important;
-            background-repeat: no-repeat !important;
-        }
-        .card-title {
+        .header {
             font-weight: bold;
         }
-        .card-content {
-            padding: 15px 30px;
-            >ul {
-                margin-left: 17px;
-                >li {
-                    list-style: initial;
+        .card {
+            min-height: 200px;
+            >.card-image {
+                width: 20%;
+                background-size: cover !important;
+                background-position: top !important;
+                background-repeat: no-repeat !important;
+            }
+            .card-title {
+                font-weight: bold;
+            }
+            .card-content {
+                padding: 15px 30px;
+                >ul {
+                    margin-left: 17px;
+                    >li {
+                        list-style: initial;
+                    }
                 }
             }
-        }
-        .btn-skill {
-            margin: 5px;
-            text-transform: none;
+            .btn-skill {
+                margin: 5px;
+                text-transform: none;
+            }
         }
     }
 }
