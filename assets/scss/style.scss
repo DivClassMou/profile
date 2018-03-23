@@ -31,6 +31,12 @@
             background-position: top !important;
             background-repeat: no-repeat !important;
         }
+        .card-title {
+            font-weight: bold;
+        }
+        .card-content {
+            padding: 15px 30px;
+        }
         .btn-skill {
             margin: 5px;
             text-transform: none;
