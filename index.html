@@ -28,10 +28,9 @@
                         <div class="card-stacked">
                             <div class="card-content">
                                 <span class="card-title">Introduction</span>
-                                <p>
-                                    Hello I'm Div.
-
-                                </p>
+                                <ul>
+                                    <li v-for="introduction in introductions">{{ introduction }}</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
