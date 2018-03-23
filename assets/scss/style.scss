@@ -25,6 +25,7 @@
         width: 100%;
     }
     .card {
+        min-height: 200px;
         >.card-image {
             width: 20%;
             background-size: cover !important;
