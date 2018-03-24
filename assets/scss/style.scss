@@ -1,4 +1,5 @@
-$break-point-tablet: 992px;
+$break-point-desktop: 992px;
+$break-point-mobile: 600px;
 body {
     background: #fafafa;
 }
@@ -60,8 +61,23 @@ body {
     }
 }
 
-@media screen and (max-width: $break-point-tablet) {
+@media screen and (max-width: $break-point-desktop) {
     .main {
         padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: $break-point-mobile) {
+    .main {
+        padding-left: 0px;
+        .card {
+            &.horizontal {
+                display: block;
+                .card-image {
+                    min-width: 100%;
+                    height: 300px;
+                }
+            }
+        }
     }
 }
