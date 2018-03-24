@@ -1,3 +1,4 @@
+$break-point-tablet: 992px;
 body {
     background: #fafafa;
 }
@@ -25,6 +26,7 @@ body {
 
 .main {
     padding-left: 300px;
+    transition: all 0.5s;
     >.container {
         width: 100%;
         .header {
@@ -55,5 +57,11 @@ body {
                 text-transform: none;
             }
         }
+    }
+}
+
+@media screen and (max-width: $break-point-tablet) {
+    .main {
+        padding-left: 0px;
     }
 }
