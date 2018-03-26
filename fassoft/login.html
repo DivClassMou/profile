@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FASSOFT</title>
+
+    <link rel="stylesheet" href="package/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="package/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="package/slick/slick.css">
+    <link rel="stylesheet" href="package/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="package/bootstrap/js/bootstrap.min.js"></script>
+    <script src="package/slick/slick.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+
+<body>
+
+    <div class="container main_block">
+
+        <div id="brand_block" class="row">
+            <div class="col-sm-6">
+                <div class="brand">
+                    FASSOFT 法碩線上法律諮詢平台
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="input-group pull-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- <a class="navbar-brand" href="index.html">FASSOFT</a> -->
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">線上諮詢</a></li>
+                        <li><a href="#">最新消息</a></li>
+                        <li><a href="#">熱門討論</a></li>
+                        <li><a href="#">時事問題</a></li>
+                        <li><a href="#">使用者登入</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid login_content">
+                <div class="col-sm-4 col-sm-offset-7 ">
+                    <div class="panel login_panel">
+                        <div class="panel-heading">
+                            <h2 class="panel-title ctm_title">Wecolme Back</h2>
+                        </div>
+                        <div class="vspace_s"></div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                              <label for="inputAccount" class="col-sm-2 control-label"><i class="fa fa-2x fa-user" aria-hidden="true"></i></label>
+                              <div class="col-sm-10 login_input">
+                                <input type="account" class="form-control ctm_input" id="inputAccount" placeholder="帳號">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="inputPassword" class="col-sm-2 control-label"><i class="fa fa-2x fa-unlock-alt" aria-hidden="true"></i></label>
+                              <div class="col-sm-10 login_input">
+                                <input type="password" class="form-control ctm_input" id="inputPassword" placeholder="密碼">
+                              </div>
+                            </div>
+                            <div class="vspace_s"></div>
+                            <div class="form-group">
+                              <div class="col-sm-8">
+                                <div class="checkbox">
+                                  <label>
+                                    <input type="checkbox"> 記住我
+                                  </label>
+                                </div>
+                              </div>
+                              <div class="col-sm-4">
+                                  <button type="button" class="btn btn-submit btn-block">登入</button>
+                              </div>
+                            </div>
+                            <div class="vspace_m"></div>
+                            <div class="row">
+                                <div class="col-sm-4" style="padding:0">
+                                    <a href="#">忘記密碼</a>
+                                </div>
+                                <div class="col-sm-8" style="padding:0">
+                                    <p>還不是會員？<a href="#">立即註冊新帳號</a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+
+        <footer>
+            <div class="row footer_up">
+                <div class="col-sm-3">
+                    <div class="brand text-center">
+                        FASSOFT
+                    </div>
+                </div>
+                <div class="col-sm-9 bottom_menu text-center">
+                    <p>
+                        <a href="#">線上諮詢</a>
+                    </p>
+                    <p>
+                        <a href="#">最新消息</a>
+                    </p>
+                    <p>
+                        <a href="#">熱門討論</a>
+                    </p>
+                    <p>
+                        <a href="#">時事問題</a>
+                    </p>
+                    <p>
+                        <a href="#">使用者登入</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row footer_down">
+                <div class="col-sm-12">
+                    Copyright &copy; 2016 Fassoft All right reserved. 法碩資訊有限公司
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

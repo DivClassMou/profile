@@ -1,0 +1,46 @@
+.login_content {
+    background-image: url('../img/login.jpg');
+    background-repeat: no-repeat;;
+    background-position: center;
+    background-color: #fff;
+    min-height: calc(100vh - 306px);
+    /*305px equal header and footer height */
+}
+.login_panel {
+    margin-top: 10%;
+}
+.ctm_title {
+    margin-bottom: 0px !important;
+    margin-top: 20px;
+    font-weight: lighter !important;
+}
+.login_input {
+    padding: 0 15px 0 0;
+}
+.ctm_input {
+    -webkit-appearance: none;
+    box-shadow: none !important;
+    /*cancel chrome default input style*/
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    transition: none;
+    -webkit-appearance: none;
+}
+.vspace_s {
+    height: 15px;
+    display: inline-block;
+}
+.vspace_m {
+    height: 50px !important;
+    display: inline-block;
+}
+.vspace_l {
+    height: 100px;
+    display: inline-block;
+}
+@media (min-width: 768px) {
+    .login_panel {
+        margin-top: 10%;
+    }
+}
