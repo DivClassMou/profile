@@ -62,7 +62,7 @@ body {
         }
         .works {
             .card {
-                min-height: 320px;
+                height: 350px;
             }
         }
     }
@@ -83,6 +83,13 @@ body {
                 .card-image {
                     min-width: 100%;
                     height: 300px;
+                }
+            }
+        }
+        >.container {
+            .works {
+                .card {
+                    height: auto;
                 }
             }
         }
