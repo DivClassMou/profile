@@ -57,44 +57,14 @@
                 <div class="col s12">
                     <h2 class="header blue-grey-text lighten-1">Works</h2>
                 </div>
-                <div class="col s12 m6 l6 xl4">
+                <div v-for="work in works" class="col s12 m6 l6 xl4">
                     <div class="card">
                         <div class="card-image">
-                            <img src="assets/img/works_1.png">
+                            <img :src="work.image">
                         </div>
                         <div class="card-content">
-                            <span class="card-title">dcplus</span>
-                            <p>
-                                Participate in Front-End and Back-End development.
-                                Node js, jQuery, Handlebars, Semantic UI are used.
-                                Integration with Wordpress web site.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l6 xl4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/img/works_2.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">justwealth</span>
-                            <p>
-                                Wordpress and Woocommerce ecommerce are used.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m6 l6 xl4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/img/works_3.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title">ohyanlaw</span>
-                            <p>
-                                Wordpress web site.
-                            </p>
+                            <span class="card-title">{{ work.name }}</span>
+                            <p>{{ work.content }}</p>
                         </div>
                     </div>
                 </div>
