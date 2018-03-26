@@ -28,13 +28,13 @@ var app = new Vue({
                 name: 'dcplus',
                 url: 'https://www.dcplus.com.tw/',
                 image: 'assets/img/works_1.png',
-                content: 'Participate in Front-End and Back-End development. Node js, jQuery, Handlebars, Semantic UI are used. Integration with Wordpress web site.',
+                content: 'Participate in Front-End and Back-End development.',
             },
             {
                 name: 'justwealth',
                 url: 'https://justwealth.com.tw/',
                 image: 'assets/img/works_2.png',
-                content: 'Wordpress and Woocommerce ecommerce are used.',
+                content: 'Wordpress and Woocommerce ecommerce web site.',
             },
             {
                 name: 'ohyanlaw',
