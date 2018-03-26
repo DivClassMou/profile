@@ -42,6 +42,18 @@ var app = new Vue({
                 image: 'assets/img/works_3.png',
                 content: 'Wordpress web site.',
             },
+            {
+                name: 'fassoft',
+                url: 'fassoft',
+                image: 'assets/img/works_4.png',
+                content: 'Bootstrap web site.',
+            },
+            {
+                name: 'uz-magnet',
+                url: 'uz',
+                image: 'assets/img/works_5.png',
+                content: 'Bootstrap web site.',
+            },
         ]
     }
 })
