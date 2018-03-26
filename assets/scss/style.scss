@@ -30,32 +30,34 @@ body {
     transition: all 0.5s;
     >.container {
         width: 100%;
-        .header {
-            font-weight: bold;
-        }
-        .card {
-            min-height: 200px;
-            >.card-image {
-                width: 20%;
-                background-size: cover !important;
-                background-position: top !important;
-                background-repeat: no-repeat !important;
-            }
-            .card-title {
+        .about {
+            .header {
                 font-weight: bold;
             }
-            .card-content {
-                padding: 15px 30px;
-                >ul {
-                    margin-left: 17px;
-                    >li {
-                        list-style: initial;
+            .card {
+                min-height: 200px;
+                >.card-image {
+                    width: 20%;
+                    background-size: cover !important;
+                    background-position: top !important;
+                    background-repeat: no-repeat !important;
+                }
+                .card-title {
+                    font-weight: bold;
+                }
+                .card-content {
+                    padding: 15px 30px;
+                    >ul {
+                        margin-left: 17px;
+                        >li {
+                            list-style: initial;
+                        }
                     }
                 }
-            }
-            .btn-skill {
-                margin: 5px;
-                text-transform: none;
+                .btn-skill {
+                    margin: 5px;
+                    text-transform: none;
+                }
             }
         }
     }
