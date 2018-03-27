@@ -63,6 +63,15 @@ body {
         .works {
             .card {
                 height: 350px;
+                >a {
+                    &.card-image {
+                        height: 200px;
+                        display: block;
+                        background-size: cover !important;
+                        background-position: top !important;
+                        background-repeat: no-repeat !important;
+                    }
+                }
             }
         }
     }

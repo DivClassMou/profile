@@ -59,9 +59,7 @@
                 </div>
                 <div v-for="work in works" class="col s12 m6 l6 xl4">
                     <div class="card">
-                        <div class="card-image">
-                            <a :href="work.url"><img :src="work.image"></a>
-                        </div>
+                        <a :href="work.url" class="card-image" :style="`background: url(${work.image})`"></a>
                         <div class="card-content">
                             <a :href="work.url" class="card-title">{{ work.name }}</a>
                             <p>{{ work.content }}</p>
