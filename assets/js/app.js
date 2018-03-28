@@ -46,13 +46,13 @@ var app = new Vue({
                 name: 'fassoft',
                 url: 'fassoft',
                 image: 'assets/img/works_4.png',
-                content: 'Bootstrap web site.',
+                content: 'Bootstrap web page.',
             },
             {
                 name: 'uz-magnet',
                 url: 'uz',
                 image: 'assets/img/works_5.png',
-                content: 'Bootstrap web site.',
+                content: 'Bootstrap web page.',
             },
         ]
     }
