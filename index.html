@@ -101,9 +101,9 @@
                 </div>
                 <div v-for="work in works" class="col s12 m6 l6 xl4">
                     <div class="card">
-                        <a :href="work.url" class="card-image" :style="`background: url(${work.image})`" target="blank"></a>
+                        <a :href="work.url" class="card-image" :style="`background: url(${work.image})`" target="_blank"></a>
                         <div class="card-content">
-                            <a :href="work.url" class="card-title" target="blank">{{ work.name }}</a>
+                            <a :href="work.url" class="card-title" target="_blank">{{ work.name }}</a>
                             <p>{{ work.content }}</p>
                         </div>
                     </div>
